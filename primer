@@ -1,0 +1,15 @@
+<h1 className="item">Page Home</h1>
+    <video src={video} width="500" height="250" controls></video>
+    <p>
+        <iframe src={pdf} width="50%" height="600" >не удалось показать документ</iframe>
+    </p>
+
+    import video from './video.mp4'
+import pdf from './ottest.pdf'
+
+.btn{
+    width: 220px;
+}
+.navbar{
+    color: #363949;
+}
